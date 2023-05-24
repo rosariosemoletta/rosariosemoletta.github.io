@@ -1,0 +1,24 @@
+.description-container {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fade-in 1s ease-in-out;
+
+  & > div {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
